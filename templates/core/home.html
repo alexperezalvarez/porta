@@ -1,4 +1,5 @@
 {% extends 'core/base.html' %}
+{% load i18n %}
 
 {% block content %}
 <!-- Hero Section -->
@@ -10,30 +11,27 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center relative z-10">
         <div class="mb-8 inline-block">
             <div class="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-blue-500/20 shadow-[0_0_20px_rgba(37,99,235,0.1)]">
-                <div class="w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-4xl font-bold">
-                    AP
-                </div>
+                <img src="/static/images/perfil.jpeg" alt="Alexander Perez" class="w-full h-full object-cover">
             </div>
         </div>
         <h1 class="text-4xl md:text-6xl font-bold mb-6">
-            Hola, soy <span class="gradient-text">Alexander Perez</span>
+            {% trans "Hola, soy" %} <span class="gradient-text">Alexander Perez</span>
         </h1>
         <p class="text-xl md:text-2xl text-zinc-400 mb-4">
-            Desarrollador Full Stack
+            {% trans "Desarrollador Full Stack" %}
         </p>
         <p class="text-base md:text-lg text-zinc-500 max-w-2xl mx-auto mb-8">
-            Apasionado por crear soluciones innovadoras con tecnologías modernas.
-            Especializado en Django, Python y desarrollo web.
+            {% trans "Apasionado por crear soluciones innovadoras con tecnologías modernas. Especializado en Django, Python y desarrollo web." %}
         </p>
         <div class="flex items-center justify-center gap-4 flex-wrap">
             <a href="{% url 'projects' %}" class="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors font-medium">
-                Ver Proyectos
+                {% trans "Ver Proyectos" %}
                 <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                 </svg>
             </a>
             <a href="{% url 'contact' %}" class="inline-flex items-center gap-2 px-6 py-3 border border-zinc-700 hover:border-zinc-500 text-zinc-300 hover:text-white rounded-lg transition-all font-medium">
-                Contactarme
+                {% trans "Contactarme" %}
             </a>
         </div>
     </div>
@@ -43,9 +41,9 @@
 <section class="py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">Tecnologías</h2>
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">{% trans "Tecnologías" %}</h2>
             <p class="text-zinc-400 max-w-2xl mx-auto">
-                Herramientas y tecnologías con las que trabajo diariamente
+                {% trans "Herramientas y tecnologías con las que trabajo diariamente" %}
             </p>
         </div>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -67,7 +65,7 @@
                 <div class="w-12 h-12 mx-auto mb-4 bg-blue-500/10 rounded-lg flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
                     🗄️
                 </div>
-                <h3 class="font-semibold mb-1">Bases de Datos</h3>
+                <h3 class="font-semibold mb-1">{% trans "Bases de Datos" %}</h3>
                 <p class="text-sm text-zinc-500">PostgreSQL, SQLite</p>
             </div>
             <div class="glass-card rounded-xl p-6 text-center group hover:bg-zinc-800/50">
@@ -75,14 +73,14 @@
                     🐳
                 </div>
                 <h3 class="font-semibold mb-1">Docker</h3>
-                <p class="text-sm text-zinc-500">Contenedores</p>
+                <p class="text-sm text-zinc-500">{% trans "Contenedores" %}</p>
             </div>
             <div class="glass-card rounded-xl p-6 text-center group hover:bg-zinc-800/50">
                 <div class="w-12 h-12 mx-auto mb-4 bg-blue-500/10 rounded-lg flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
                     🔧
                 </div>
                 <h3 class="font-semibold mb-1">Git</h3>
-                <p class="text-sm text-zinc-500">Control de versiones</p>
+                <p class="text-sm text-zinc-500">{% trans "Control de versiones" %}</p>
             </div>
             <div class="glass-card rounded-xl p-6 text-center group hover:bg-zinc-800/50">
                 <div class="w-12 h-12 mx-auto mb-4 bg-blue-500/10 rounded-lg flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
@@ -115,14 +113,12 @@
         <div class="glass rounded-2xl p-8 md:p-12">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Sobre <span class="gradient-text">mí</span></h2>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">{% trans "Sobre" %} <span class="gradient-text">{% trans "mí" %}</span></h2>
                     <p class="text-zinc-400 mb-4 leading-relaxed">
-                        Soy un desarrollador full stack con experiencia en la creación de aplicaciones web modernas.
-                        Me apasiona transformar ideas en soluciones digitales funcionales y atractivas.
+                        {% trans "Soy un desarrollador full stack con experiencia en la creación de aplicaciones web modernas. Me apasiona transformar ideas en soluciones digitales funcionales y atractivas." %}
                     </p>
                     <p class="text-zinc-400 mb-6 leading-relaxed">
-                        Disfruto trabajar tanto en el backend como en el frontend, buscando siempre las mejores
-                        prácticas y tecnologías adecuadas para cada proyecto.
+                        {% trans "Disfruto trabajar tanto en el backend como en el frontend, buscando siempre las mejores prácticas y tecnologías adecuadas para cada proyecto." %}
                     </p>
                     <div class="flex flex-wrap gap-3">
                         <span class="px-3 py-1.5 bg-blue-500/10 border border-blue-500/20 rounded-lg text-sm text-blue-400">Django</span>
@@ -136,7 +132,7 @@
                     <div class="aspect-video rounded-xl bg-gradient-to-br from-blue-500/10 to-purple-600/10 border border-white/5 flex items-center justify-center">
                         <div class="text-center">
                             <div class="text-6xl mb-4">&lt;/&gt;</div>
-                            <p class="text-zinc-500">Código limpio &bull; Soluciones eficientes</p>
+                            <p class="text-zinc-500">{% trans "Código limpio • Soluciones eficientes" %}</p>
                         </div>
                     </div>
                     <div class="absolute -top-4 -right-4 w-24 h-24 bg-blue-500/20 blur-2xl rounded-full"></div>

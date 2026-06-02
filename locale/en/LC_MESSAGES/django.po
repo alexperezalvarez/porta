@@ -1,0 +1,148 @@
+# English translations for Portafolio
+# Copyright (C) 2026 Alexander Perez
+#
+msgid ""
+msgstr ""
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Portafolio"
+msgstr "Portfolio"
+
+msgid "Inicio"
+msgstr "Home"
+
+msgid "Proyectos"
+msgstr "Projects"
+
+msgid "Contacto"
+msgstr "Contact"
+
+msgid "Todos los derechos reservados."
+msgstr "All rights reserved."
+
+msgid "Hola, soy"
+msgstr "Hi, I'm"
+
+msgid "Desarrollador Full Stack"
+msgstr "Full Stack Developer"
+
+msgid "Apasionado por crear soluciones innovadoras con tecnologías modernas. Especializado en Django, Python y desarrollo web."
+msgstr "Passionate about creating innovative solutions with modern technologies. Specialized in Django, Python and web development."
+
+msgid "Ver Proyectos"
+msgstr "View Projects"
+
+msgid "Contactarme"
+msgstr "Contact Me"
+
+msgid "Tecnologías"
+msgstr "Technologies"
+
+msgid "Herramientas y tecnologías con las que trabajo diariamente"
+msgstr "Tools and technologies I work with daily"
+
+msgid "Bases de Datos"
+msgstr "Databases"
+
+msgid "Contenedores"
+msgstr "Containers"
+
+msgid "Control de versiones"
+msgstr "Version Control"
+
+msgid "Sobre"
+msgstr "About"
+
+msgid "mí"
+msgstr "me"
+
+msgid "Soy un desarrollador full stack con experiencia en la creación de aplicaciones web modernas. Me apasiona transformar ideas en soluciones digitales funcionales y atractivas."
+msgstr "I am a full stack developer with experience in building modern web applications. I am passionate about transforming ideas into functional and attractive digital solutions."
+
+msgid "Disfruto trabajar tanto en el backend como en el frontend, buscando siempre las mejores prácticas y tecnologías adecuadas para cada proyecto."
+msgstr "I enjoy working on both backend and frontend, always seeking the best practices and appropriate technologies for each project."
+
+msgid "Código limpio • Soluciones eficientes"
+msgstr "Clean code • Efficient solutions"
+
+msgid "Mis"
+msgstr "My"
+
+msgid "Aquí puedes ver algunos de los proyectos en los que he trabajado. Cada uno refleja mi dedicación y habilidades en diferentes áreas del desarrollo."
+msgstr "Here are some of the projects I've worked on. Each one reflects my dedication and skills in different areas of development."
+
+msgid "API RESTful para comercio electrónico con Django REST Framework, autenticación JWT y documentación con Swagger."
+msgstr "RESTful API for e-commerce with Django REST Framework, JWT authentication and Swagger documentation."
+
+msgid "Código"
+msgstr "Code"
+
+msgid "Panel de administración con gráficos interactivos, reportes y gestión de datos en tiempo real."
+msgstr "Admin dashboard with interactive charts, reports and real-time data management."
+
+msgid "Blog Personal"
+msgstr "Personal Blog"
+
+msgid "Plataforma de blogging con editor de texto enriquecido, categorías, comentarios y panel de administración."
+msgstr "Blogging platform with rich text editor, categories, comments and admin panel."
+
+msgid "Sistema de autenticación completo con registro, inicio de sesión, recuperación de contraseña y 2FA."
+msgstr "Complete authentication system with registration, login, password recovery and 2FA."
+
+msgid "Aplicación del clima con consumo de API externa, geolocalización y gráficos de pronóstico semanal."
+msgstr "Weather app consuming external API, geolocation and weekly forecast charts."
+
+msgid "Catálogo de videojuegos con buscador, filtros, reseñas de usuarios y sistema de ratings."
+msgstr "Video game catalog with search, filters, user reviews and rating system."
+
+msgid "Contácta"
+msgstr "Contact"
+
+msgid "¿Tienes un proyecto en mente? ¿Quieres colaborar? ¡Estoy abierto a nuevas oportunidades!"
+msgstr "Do you have a project in mind? Want to collaborate? I'm open to new opportunities!"
+
+msgid "Envíame un mensaje"
+msgstr "Send me a message"
+
+msgid "Nombre"
+msgstr "Name"
+
+msgid "Tu nombre"
+msgstr "Your name"
+
+msgid "Mensaje"
+msgstr "Message"
+
+msgid "Tu mensaje..."
+msgstr "Your message..."
+
+msgid "Enviar mensaje"
+msgstr "Send message"
+
+msgid "Información"
+msgstr "Information"
+
+msgid "Ubicación"
+msgstr "Location"
+
+msgid "Colombia"
+msgstr "Colombia"
+
+msgid "¿Por qué trabajar conmigo?"
+msgstr "Why work with me?"
+
+msgid "Compromiso con la calidad y buenas prácticas"
+msgstr "Commitment to quality and best practices"
+
+msgid "Comunicación clara y constante"
+msgstr "Clear and constant communication"
+
+msgid "Entregas puntuales y responsables"
+msgstr "Timely and responsible deliveries"
+
+msgid "Aprendizaje continuo de nuevas tecnologías"
+msgstr "Continuous learning of new technologies"
